@@ -12,4 +12,8 @@
     <PackageReference Include="MudBlazor" Version="6.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToDo.Shared\ToDo.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

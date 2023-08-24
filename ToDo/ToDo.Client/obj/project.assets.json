@@ -531,6 +531,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "ToDo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ToDo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDo.Shared.dll": {}
+        }
       }
     },
     "net7.0/browser-wasm": {
@@ -1056,6 +1066,16 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "ToDo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ToDo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDo.Shared.dll": {}
         }
       }
     }
@@ -1965,13 +1985,19 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ToDo.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ToDo.Shared/ToDo.Shared.csproj",
+      "msbuildProject": "../ToDo.Shared/ToDo.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.9",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.9",
-      "MudBlazor >= 6.9.0"
+      "MudBlazor >= 6.9.0",
+      "ToDo.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2005,7 +2031,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\PW\\TODO\\TODO\\ToDo\\ToDo.Shared\\ToDo.Shared.csproj": {
+              "projectPath": "C:\\PW\\TODO\\TODO\\ToDo\\ToDo.Shared\\ToDo.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2048,7 +2078,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

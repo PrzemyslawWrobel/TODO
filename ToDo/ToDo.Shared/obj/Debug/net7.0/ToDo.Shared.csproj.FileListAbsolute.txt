@@ -1,0 +1,11 @@
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\bin\Debug\net7.0\ToDo.Shared.deps.json
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\bin\Debug\net7.0\ToDo.Shared.dll
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\bin\Debug\net7.0\ToDo.Shared.pdb
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\obj\Debug\net7.0\ToDo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\obj\Debug\net7.0\ToDo.Shared.AssemblyInfoInputs.cache
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\obj\Debug\net7.0\ToDo.Shared.AssemblyInfo.cs
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\obj\Debug\net7.0\ToDo.Shared.csproj.CoreCompileInputs.cache
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\obj\Debug\net7.0\ToDo.Shared.dll
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\obj\Debug\net7.0\refint\ToDo.Shared.dll
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\obj\Debug\net7.0\ToDo.Shared.pdb
+C:\PW\TODO\TODO\ToDo\ToDo.Shared\obj\Debug\net7.0\ref\ToDo.Shared.dll

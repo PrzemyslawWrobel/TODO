@@ -1,3 +1,5 @@
-﻿namespace ToDo.Shared.Models;
+﻿using ToDo.Shared.Enums;
 
-public record TaskModel(Guid Id, string Title, string? Description, Guid? CategoryId);
+namespace ToDo.Shared.Models;
+
+public record TaskModel(Guid Id, string Title, Status Status, Category? Category, string? Description);

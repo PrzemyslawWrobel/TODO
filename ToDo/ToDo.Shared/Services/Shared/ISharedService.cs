@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ToDo.Shared.Services.Shared
 {
-    internal interface ISharedService
+    public interface ISharedService
     {
+        Task SaveData();
+        Task LoadData();
+
     }
 }
